@@ -18,23 +18,33 @@ Archivo de texto que sirve de input de entrada para ejecutar el código. Esta en
 
 #### Ejemplo de caso 1:
 
-> innput     > output
-1 | 3          1 | 2
-2 | 2          2 | -1          
+> innput    
+1 | 3          
+2 | 2               
 3 | 93
 4 | 4
+
+> output
+1 | 2
+2 | -1    
 
 Este caso se resuelve con este output debido a que 93 es uno de los numeros excluyentes en la para una correcta resolucion de la promesa. 
 Por tanto  3, sera el valor asignado a ***n***(numero de iteraciones). 2 sera el primer valor recibido por la promesa, y este hará que la promesa se resuleva correctamente. Seguidamente la promesa recibirá 93, y al ser excluyente, la promesa no se resolvera y devovera reject, lo que hace que el output sea -1, parando la ejecución.
 
 #### Ejemplo de caso 2:
 
-> innput     > output
-1 | 4          1 | 37
-2 | 37         2 | 62          
-3 | 65         3 | 8 
-4 | 8          4 | 3
+> innput    
+1 | 4         
+2 | 37               
+3 | 65        
+4 | 8          
 5 | 3
+
+> output
+1 | 37
+2 | 62 
+3 | 8  
+4 | 3 
 
 En este caso como no encuentra ningun número excluyente no para la ejecucion y muestra el output completo.
 
