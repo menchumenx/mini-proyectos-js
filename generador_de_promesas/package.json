@@ -1,0 +1,11 @@
+{
+  "name": "generador_de_promesas",
+  "version": "1.0.0",
+  "description": "prueba tecnica - generador de promesas",
+  "main": "bbv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Menchu Martin",
+  "license": "ISC"
+}
